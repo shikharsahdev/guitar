@@ -403,3 +403,37 @@ body, html {
 .madeby u {
   color: var(--fret-division-color);
 }
+
+
+.desktopOnly {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .desktopOnly {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--first-fret-color);
+    color: var(--fret-division-color);
+    z-index: +6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+  .desktopOnly h1 {
+    margin: 0;
+    font-size: 6em;;
+  }
+  .desktopOnly h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  .desktopOnly i {
+    color: var(--guitar-color);
+  }
+}

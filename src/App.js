@@ -96,6 +96,11 @@ function App() {
         </div>
         <div className="madeby">Made with <b>&#x2764;</b> by <a href="https://www.linkedin.com/in/shikharsahdev/" target="shikharcontact"><u>Shikhar Sahdev</u></a></div>
       </div>
+      <div className="desktopOnly">
+        <h1>alas</h1>
+        <h2><i>desktop only</i> for now</h2>
+        <p>Resize the window if already on desktop, <i>lulz</i></p>
+      </div>
     </AudioContextProvider>
   );
 }
